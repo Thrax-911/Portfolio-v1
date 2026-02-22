@@ -1,6 +1,8 @@
 # Portfolio v1
 [![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Thrax-911/Portfolio-v1)
 
+[![Ask DeepWiki]
+
 A sleek, animated personal portfolio template featuring a frosted glass design, a background video, and an integrated music player. This project is built with pure HTML, CSS, and JavaScript, offering a lightweight and customizable solution for showcasing your profile.
 
 ## Features
