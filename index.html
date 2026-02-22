@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrax | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png"
+        href="https://cdn.discordapp.com/attachments/1443230001402216460/1444099461407309964/snowflake.png?ex=692b79ed&is=692a286d&hm=0f4284039421bac0233c7d9e4724751888ac9088ef8a36beff80f1f2b749979f&">
+
+</head>
+
+
+<!-- 
+==================================================
+🛠️ CUSTOMIZATION GUIDE
+
+ضع اسمك هنا بدل Thra𝕏 داخل <h1 class="title">
+غير الصورة img/thrax.png وضع صورتك الشخصية داخل مجلد img
+يمكنك تغيير الوصف الشخصي داخل <p class="description">
+
+⚠️ لا تحذف أي class أو id لأنهم مرتبطين بالـ CSS و JavaScript
+==================================================
+-->
+
+<!-- 
+🎬 Background Video
+لو عايز تغير الخلفية:
+- ارفع فيديو جديد
+- غير رابط الـ src داخل <source>
+يفضل يكون فيديو قصير ومضغوط عشان الأداء
+-->
+
+<!-- 
+🔊 Volume Icon
+تقدر تغير الصورة icons/sondi.png وتحط أي أيقونة PNG بنفس الاسم
+-->
+
+<!-- 
+🌐 Social Media Links
+غير الروابط دي بروابط حساباتك الشخصية:
+- Discord
+- Reddit
+- Bluesky / Twitter
+- LinkedIn
+- GitHub
+- YouTube
+
+⚠️ تأكد إن كل <a> مقفولة صح ومافيش nested tags غلط
+-->
+
+<!-- 
+🎵 Music Player
+لو عايز تغير صورة الغلاف:
+غير img/Phonk.jpg
+
+لو عايز تغير اسم الأغنية الافتراضية:
+غير النص داخل div.music-title
+-->
+
+<!-- 
+📌 Favicon
+تقدر تغير الأيقونة من خلال تعديل رابط الـ <link rel="icon">
+حط رابط صورتك الخاصة (PNG أو ICO)
+-->
+
+
+<body>
+    <div id="intro-overlay">
+        <div class="intro-text">click to enter...</div>
+    </div>
+
+    <!-- Background Video -->
+    <video autoplay muted loop id="bg-video">
+        <source src="https://res.cloudinary.com/dut1fdllu/video/upload/v1771745536/AQNujg8qqQE28pjuE1FsFFytbsVRoIoMKe8xq5Ec1aPDkx3zwOFNxQfqOGhA_ihaeOGNndpeE2vSdVA420zlGmHRRzGjOmFhahr3gFXSqxX4Ow_mnlnvh.mp4" type="video/mp4">
+    </video>
+
+    <!-- Global Volume Control -->
+    <div class="volume-control">
+        <label class="slider">
+            <input type="range" class="level" min="0" max="100" value="50">
+            <!-- استخدم هنا صورة PNG بدل SVG -->
+            <img src="icons/sondi.png" alt="Volume" class="volume">
+        </label>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="img/thrax.png" class="avatar" alt="Avatar">
+                <h1 class="title">Thra𝕏</h1>
+                <p class="subtitle">Game Developer & Full Stack Developer</p> 
+                <p class="description">Looking for 4 righteous wives | يَبْحَثُ عَنْ أَرْبَعِ زَوْجَاتٍ
+                     صَالِحَاتٍ ( ꈍ◡ꈍ)
+                    
+                </p>
+                <!-- Social Media Icons -->
+                <div class="social-container">
+                    <div class="social-icons">
+                        <a href="https://discord.gg/xB2AY5AaJM" target="_blank">
+                            <img src="icons/discord_1.png" alt="discord">
+
+                        <a href="https://https://reddit.com/user/Thrax" target="_blank">
+                            <img src="icons/reddit.png" alt="reddit">
+
+                            <a href="https://bsky.app/profile/dr-thrax.bsky.social" target="_blank">
+                            <img src="icons/twitter.png" alt="twitter">
+
+                            <a href="https://www.linkedin.com/in/dr-thrax" target="_blank">
+                            <img src="icons/linkedin.png" alt="discord">
+
+                        </a>
+                        <a href="https://github.com/Thrax-911" target="_blank">
+                            <img src="icons/github.png" alt="github">
+                        </a>
+                        <a href="https://www.youtube.com/@Thrax911" target="_blank">
+                            <img src="icons/youtube.png" alt="youtube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="music-player">
+                <div class="music-cover">
+                    <img src="img/Phonk.jpg" alt="Track Cover">
+                </div>
+                <div class="music-info">
+                    <div class="music-title">love nwantiti (ah ah ah)</div>
+                    <div class="music-time-row">
+                        <span class="current-time">0:00</span>
+                        <input type="range" class="music-progress" min="0" value="0">
+                        <span class="total-duration">0:00</span>
+                    </div>
+                </div>
+                <div class="music-controls">
+                    <button class="music-btn prev" aria-label="Previous">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </button>
+                    <button class="music-btn play" aria-label="Play/Pause">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    <button class="music-btn next" aria-label="Change Song">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+</body>
+
+</html>
