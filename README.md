@@ -38,10 +38,15 @@ No frameworks used — pure HTML, CSS and JavaScript.
 ## Project Structure
 
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 ├── img/
+
 ├── icons/
+
 └── mp3/
 
 ## Deployment
