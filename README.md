@@ -61,7 +61,7 @@ This is a static website and can be deployed easily to any static hosting servic
 3.  **Deploy** to a service such as:
     -   GitHub Pages
     -   Vercel
-    -   Netlify
+    -   Netlify 
 
 ---
 Designed by Dr.Thrax
