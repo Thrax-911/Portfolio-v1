@@ -9,7 +9,7 @@ A sleek, animated personal portfolio template featuring a frosted glass design, 
 - **Frosted Glass UI:** A modern, semi-transparent hero card that blurs the background content.
 - **Integrated Music Player:**
     - Playlist support for multiple tracks.
-    - Controls for play/pause, next, and previous songs.
+    - Controls for play/pause, next, and previous songs. 
     - Dynamic progress bar and time display.
 - **Animated Social Icons:** Glowing social media links that scale on hover.
 - **Custom Volume Control:** A unique, expandable volume slider for global audio control.
