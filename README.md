@@ -13,7 +13,7 @@ A sleek, animated personal portfolio template featuring a frosted glass design, 
     - Dynamic progress bar and time display.
 - **Animated Social Icons:** Glowing social media links that scale on hover.
 - **Custom Volume Control:** A unique, expandable volume slider for global audio control.
-- **Framework-Free:** Built with vanilla HTML, CSS, and JavaScript for simplicity and performance.
+- **Framework-Free:** Built with vanilla HTML, CSS, and JavaScript for simplicity and performance. 
 
 ## Customization
 This portfolio is designed for easy personalization. Key areas for customization are noted with comments in the source files.
